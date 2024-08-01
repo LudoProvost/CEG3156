@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fpMultTB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fpMultTB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,899,993 ps"></ZoomStartTime>
+      <ZoomEndTime time="2,900,002 ps"></ZoomEndTime>
+      <Cursor1Time time="2,900,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="129"></NameColumnWidth>
+      <ValueColumnWidth column_width="77"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/fpMultTB/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/Start" type="logic">
+      <obj_property name="ElementShortName">Start</obj_property>
+      <obj_property name="ObjectShortName">Start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/SignA" type="logic">
+      <obj_property name="ElementShortName">SignA</obj_property>
+      <obj_property name="ObjectShortName">SignA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/SignB" type="logic">
+      <obj_property name="ElementShortName">SignB</obj_property>
+      <obj_property name="ObjectShortName">SignB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/SignOut" type="logic">
+      <obj_property name="ElementShortName">SignOut</obj_property>
+      <obj_property name="ObjectShortName">SignOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/Overflow" type="logic">
+      <obj_property name="ElementShortName">Overflow</obj_property>
+      <obj_property name="ObjectShortName">Overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/MantissaA" type="array">
+      <obj_property name="ElementShortName">MantissaA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/MantissaB" type="array">
+      <obj_property name="ElementShortName">MantissaB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/MantissaOut" type="array">
+      <obj_property name="ElementShortName">MantissaOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaOut[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/ExponentA" type="array">
+      <obj_property name="ElementShortName">ExponentA[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ExponentA[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/ExponentB" type="array">
+      <obj_property name="ElementShortName">ExponentB[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ExponentB[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpMultTB/ExponentOut" type="array">
+      <obj_property name="ElementShortName">ExponentOut[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ExponentOut[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
